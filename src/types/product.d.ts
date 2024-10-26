@@ -6,6 +6,8 @@ interface IProduct {
   category: string
   visited: number
   menu: string
+  composition: string[]
+  description: number
 }
 
 interface IVariableProduct {
@@ -18,4 +20,3 @@ interface IVariableProduct {
   statusLabel: string
   sold: number
 }
-

@@ -2,13 +2,13 @@
 import { Splide, SplideSlide } from '@splidejs/react-splide'
 import '@splidejs/react-splide/css'
 import React, { FC } from 'react'
-import Title from '@/components/ui/title'
 import Image from 'next/image'
+import Title from '@/components/client/ui/title'
 
 interface IProductSlider {
   title: string
   subtitle?: string
-  list: IProduct[]
+  list: IProduct[] | []
 }
 
 const ProductSlider: FC<IProductSlider> = ({ title, subtitle, list }) => {

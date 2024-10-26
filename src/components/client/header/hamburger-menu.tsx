@@ -17,10 +17,10 @@ import instagramIcon from '/public/icons/instagram.svg'
 import telIcon from '/public/icons/tel.svg'
 import searchIcon from '/public/icons/search.svg'
 import burgerIcon from '/public/icons/burger.svg'
-import Cart from '@/components/card/cart'
-import LocaleChange from '@/components/locale-change/locale-change'
 import { useState } from 'react'
-import Button from '@/components/ui/button'
+import Button from '@/components/client/ui/button'
+import LocaleChange from '@/components/client/locale-change/locale-change'
+import Cart from '@/components/client/card/cart'
 
 interface HamburgerMenu {
   headerLinks: ILink[]

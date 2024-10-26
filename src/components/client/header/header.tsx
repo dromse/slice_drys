@@ -12,10 +12,10 @@ import telIcon from '/public/icons/tel.svg'
 import searchIcon from '/public/icons/search.svg'
 import Info from './header-info'
 import HamburgerMenu from './hamburger-menu'
-import Button from '@/components/ui/button'
-import LocaleChange from '@/components/locale-change/locale-change'
-import Cart from '@/components/card/cart'
 import { useLocale } from 'next-intl'
+import LocaleChange from '../locale-change/locale-change'
+import Button from '@/components/client/ui/button'
+import Cart from '../card/cart'
 
 gsap.registerPlugin(useGSAP)
 

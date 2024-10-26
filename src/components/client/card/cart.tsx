@@ -1,9 +1,7 @@
 import Image from 'next/image'
-import Link from 'next/link'
-
 import cartIcon from '/public/icons/bin.svg'
 import React from 'react'
-import Button from '@/components/ui/button'
+import Button from '@/components/client/ui/button'
 
 export default function Cart() {
   return (
